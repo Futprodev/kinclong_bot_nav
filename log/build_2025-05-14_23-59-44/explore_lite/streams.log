@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/maul/ws_kinclong_nav/build/explore_lite': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/maul/ws_kinclong_nav/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/maul/ws_kinclong_nav/install/explore_lite
+[0.124s] -- The C compiler identification is GNU 13.3.0
+[0.180s] -- The CXX compiler identification is GNU 13.3.0
+[0.200s] -- Detecting C compiler ABI info
+[0.274s] -- Detecting C compiler ABI info - done
+[0.284s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.284s] -- Detecting C compile features
+[0.285s] -- Detecting C compile features - done
+[0.295s] -- Detecting CXX compiler ABI info
+[0.449s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.474s] -- Detecting CXX compile features
+[0.476s] -- Detecting CXX compile features - done
+[0.477s] -- BuilD for ROS2: jazzy
+[0.481s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.668s] -- Found Python3: /home/maul/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.841s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.901s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.925s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.952s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_typesupport_c/cmake/get_used_typesupports.cmake:35 (message):
+[0.952s]   No 'rosidl_typesupport_c' found
+[0.952s] Call Stack (most recent call first):
+[0.952s]   /opt/ros/jazzy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:8 (get_used_typesupports)
+[0.952s]   /opt/ros/jazzy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+[0.953s]   /opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.953s]   /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.953s]   /opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.954s]   /opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.954s]   CMakeLists.txt:34 (find_package)
+[0.954s] 
+[0.954s] [0m
+[0.954s] -- Configuring incomplete, errors occurred!

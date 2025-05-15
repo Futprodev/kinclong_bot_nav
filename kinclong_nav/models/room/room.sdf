@@ -9,7 +9,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-           <uri>file:///models/room/meshes/room2.dae</uri>
+           <uri>file:///home/maul/ws_kinclong_nav/kinclong_nav/models/room/meshes/room2.dae</uri>
 
           </mesh>
         </geometry>
@@ -18,7 +18,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>file:///models/room/meshes/room2.dae</uri>
+            <uri>file:///home/maul/ws_kinclong_nav/kinclong_nav/models/room/meshes/room2.dae</uri>
 
           </mesh>
         </geometry>

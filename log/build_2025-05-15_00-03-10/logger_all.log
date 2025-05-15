@@ -1,0 +1,273 @@
+[0.109s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x749f46fc28d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x749f46fc21b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x749f46fc21b0>>, mixin_verb=('build',))
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.142s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/maul/ws_kinclong_nav'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(kinclong_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(kinclong_nav) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(kinclong_nav) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(kinclong_nav) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(kinclong_nav) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(kinclong_nav) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(kinclong_nav) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(kinclong_nav) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(kinclong_nav) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'kinclong_nav' with type 'ros.ament_cmake' and name 'kinclong_nav'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/explore) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/explore) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/explore) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/explore) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/explore) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/explore) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/explore) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/explore) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/explore) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'm-explore-ros2/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/map_merge) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/map_merge) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/map_merge) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/map_merge) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/map_merge) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/map_merge) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/map_merge) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/map_merge) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(m-explore-ros2/map_merge) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'm-explore-ros2/map_merge' with type 'ros.ament_cmake' and name 'multirobot_map_merge'
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/maul/ws_kinclong_nav/install/explore_lite' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/maul/ws_kinclong_nav/install/explore_lite' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/maul/ws_kinclong_nav/install
+[0.192s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 424 installed packages in /opt/ros/jazzy
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maul/ws_kinclong_nav/build/explore_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maul/ws_kinclong_nav/install/explore_lite', 'merge_install': False, 'path': '/home/maul/ws_kinclong_nav/m-explore-ros2/explore', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'kinclong_nav' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'kinclong_nav' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'kinclong_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'kinclong_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'kinclong_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'kinclong_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'kinclong_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'kinclong_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'kinclong_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'kinclong_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maul/ws_kinclong_nav/build/kinclong_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maul/ws_kinclong_nav/install/kinclong_nav', 'merge_install': False, 'path': '/home/maul/ws_kinclong_nav/kinclong_nav', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'multirobot_map_merge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maul/ws_kinclong_nav/build/multirobot_map_merge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maul/ws_kinclong_nav/install/multirobot_map_merge', 'merge_install': False, 'path': '/home/maul/ws_kinclong_nav/m-explore-ros2/map_merge', 'symlink_install': False, 'test_result_base': None}
+[0.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maul/ws_kinclong_nav/m-explore-ros2/explore' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maul/ws_kinclong_nav/m-explore-ros2/explore'
+[0.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maul/ws_kinclong_nav/kinclong_nav' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maul/ws_kinclong_nav/kinclong_nav'
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maul/ws_kinclong_nav/m-explore-ros2/map_merge' with build type 'ament_cmake'
+[0.263s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maul/ws_kinclong_nav/m-explore-ros2/map_merge'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maul/ws_kinclong_nav/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/maul/ws_kinclong_nav/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/maul/ws_kinclong_nav/install/explore_lite
+[0.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maul/ws_kinclong_nav/build/kinclong_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/ws_kinclong_nav/build/kinclong_nav -- -j8 -l8
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maul/ws_kinclong_nav/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/maul/ws_kinclong_nav/m-explore-ros2/map_merge -DCMAKE_INSTALL_PREFIX=/home/maul/ws_kinclong_nav/install/multirobot_map_merge
+[0.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maul/ws_kinclong_nav/build/kinclong_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/ws_kinclong_nav/build/kinclong_nav -- -j8 -l8
+[0.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maul/ws_kinclong_nav/build/kinclong_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/ws_kinclong_nav/build/kinclong_nav
+[0.341s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinclong_nav)
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maul/ws_kinclong_nav/build/kinclong_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/ws_kinclong_nav/build/kinclong_nav
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav' for CMake module files
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav' for CMake config files
+[0.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinclong_nav', 'cmake_prefix_path')
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/hook/cmake_prefix_path.ps1'
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/hook/cmake_prefix_path.dsv'
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/hook/cmake_prefix_path.sh'
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav/bin'
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav/lib/pkgconfig/kinclong_nav.pc'
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav/lib/python3.12/site-packages'
+[0.354s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav/bin'
+[0.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/package.ps1'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/package.dsv'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/package.sh'
+[0.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/package.bash'
+[0.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/package.zsh'
+[0.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maul/ws_kinclong_nav/install/kinclong_nav/share/colcon-core/packages/kinclong_nav)
+[0.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinclong_nav)
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav' for CMake module files
+[0.362s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav' for CMake config files
+[0.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinclong_nav', 'cmake_prefix_path')
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/hook/cmake_prefix_path.ps1'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/hook/cmake_prefix_path.dsv'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/hook/cmake_prefix_path.sh'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav/bin'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav/lib/pkgconfig/kinclong_nav.pc'
+[0.364s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav/lib/python3.12/site-packages'
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/kinclong_nav/bin'
+[0.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/package.ps1'
+[0.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/package.dsv'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/package.sh'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/package.bash'
+[0.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/package.zsh'
+[0.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maul/ws_kinclong_nav/install/kinclong_nav/share/colcon-core/packages/kinclong_nav)
+[1.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maul/ws_kinclong_nav/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/maul/ws_kinclong_nav/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/maul/ws_kinclong_nav/install/explore_lite
+[1.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maul/ws_kinclong_nav/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/ws_kinclong_nav/build/explore_lite -- -j8 -l8
+[4.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maul/ws_kinclong_nav/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/ws_kinclong_nav/build/explore_lite -- -j8 -l8
+[4.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maul/ws_kinclong_nav/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/ws_kinclong_nav/build/explore_lite
+[4.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[4.020s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite' for CMake module files
+[4.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maul/ws_kinclong_nav/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/ws_kinclong_nav/build/explore_lite
+[4.021s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite' for CMake config files
+[4.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[4.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[4.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[4.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[4.022s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite/lib'
+[4.022s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite/bin'
+[4.023s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[4.023s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite/lib/python3.12/site-packages'
+[4.023s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite/bin'
+[4.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/package.ps1'
+[4.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/package.dsv'
+[4.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/package.sh'
+[4.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/package.bash'
+[4.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/package.zsh'
+[4.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maul/ws_kinclong_nav/install/explore_lite/share/colcon-core/packages/explore_lite)
+[4.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[4.025s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite' for CMake module files
+[4.026s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite' for CMake config files
+[4.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[4.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[4.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[4.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[4.027s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite/lib'
+[4.027s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite/bin'
+[4.027s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[4.028s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite/lib/python3.12/site-packages'
+[4.028s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/explore_lite/bin'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/package.ps1'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/package.dsv'
+[4.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/package.sh'
+[4.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/package.bash'
+[4.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/explore_lite/share/explore_lite/package.zsh'
+[4.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maul/ws_kinclong_nav/install/explore_lite/share/colcon-core/packages/explore_lite)
+[14.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maul/ws_kinclong_nav/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/maul/ws_kinclong_nav/m-explore-ros2/map_merge -DCMAKE_INSTALL_PREFIX=/home/maul/ws_kinclong_nav/install/multirobot_map_merge
+[14.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maul/ws_kinclong_nav/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/ws_kinclong_nav/build/multirobot_map_merge -- -j8 -l8
+[15.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maul/ws_kinclong_nav/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/maul/ws_kinclong_nav/build/multirobot_map_merge -- -j8 -l8
+[15.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maul/ws_kinclong_nav/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/ws_kinclong_nav/build/multirobot_map_merge
+[15.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[15.495s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge' for CMake module files
+[15.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maul/ws_kinclong_nav/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/maul/ws_kinclong_nav/build/multirobot_map_merge
+[15.496s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge' for CMake config files
+[15.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[15.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[15.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[15.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[15.497s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/lib'
+[15.497s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/bin'
+[15.497s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[15.498s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/lib/python3.12/site-packages'
+[15.498s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/bin'
+[15.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[15.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[15.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[15.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[15.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[15.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[15.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[15.500s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge' for CMake module files
+[15.500s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge' for CMake config files
+[15.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[15.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[15.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[15.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[15.502s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/lib'
+[15.502s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/bin'
+[15.502s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[15.502s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/lib/python3.12/site-packages'
+[15.503s] Level 1:colcon.colcon_core.environment:checking '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/bin'
+[15.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[15.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[15.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[15.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[15.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[15.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maul/ws_kinclong_nav/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[15.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.506s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.520s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.520s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.520s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.533s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.533s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maul/ws_kinclong_nav/install/local_setup.ps1'
+[15.534s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maul/ws_kinclong_nav/install/_local_setup_util_ps1.py'
+[15.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maul/ws_kinclong_nav/install/setup.ps1'
+[15.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maul/ws_kinclong_nav/install/local_setup.sh'
+[15.537s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maul/ws_kinclong_nav/install/_local_setup_util_sh.py'
+[15.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maul/ws_kinclong_nav/install/setup.sh'
+[15.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maul/ws_kinclong_nav/install/local_setup.bash'
+[15.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maul/ws_kinclong_nav/install/setup.bash'
+[15.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maul/ws_kinclong_nav/install/local_setup.zsh'
+[15.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maul/ws_kinclong_nav/install/setup.zsh'
