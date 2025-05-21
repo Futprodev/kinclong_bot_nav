@@ -20,6 +20,9 @@
 /home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/urdf/materials.xacro
 /home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/meshes/body.dae
 /home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/meshes/rpLiDAR.dae
+/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/meshes/lidar.stl
+/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/meshes/roda.stl
+/home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/meshes/body.stl
 /home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/meshes/rescaled_lidar.dae
 /home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/meshes/rescaled_body.dae
 /home/maul/ws_kinclong_nav/install/kinclong_nav/share/kinclong_nav/meshes/roda.dae

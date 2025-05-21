@@ -6,6 +6,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution, Command
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
+from launch.actions import TimerAction
 
 def generate_launch_description():
 
@@ -32,21 +33,6 @@ def generate_launch_description():
     model_arg = DeclareLaunchArgument(
         'model', default_value='mogi_bot.urdf',
         description='Name of the URDF description to load'
-    )
-
-    x_arg = DeclareLaunchArgument(
-        'x', default_value='2.5',
-        description='x coordinate of spawned robot'
-    )
-
-    y_arg = DeclareLaunchArgument(
-        'y', default_value='1.5',
-        description='y coordinate of spawned robot'
-    )
-
-    yaw_arg = DeclareLaunchArgument(
-        'yaw', default_value='-1.5707',
-        description='yaw angle of spawned robot'
     )
 
     sim_time_arg = DeclareLaunchArgument(
@@ -98,11 +84,9 @@ def generate_launch_description():
     spawn_urdf_node = Node(
         package="ros_gz_sim",
         executable="create",
-        arguments=[
-            "-name", "mogi_bot",
-            "-topic", "robot_description",
-            "-x", LaunchConfiguration('x'), "-y", LaunchConfiguration('y'), "-z", "0.5", "-Y", LaunchConfiguration('yaw')  # Initial spawn position
-        ],
+        arguments=['-topic', 'robot_description',
+                                   '-name','mogi_bot',
+                                    '-z', '0.5'],
         output="screen",
         parameters=[
             {'use_sim_time': LaunchConfiguration('use_sim_time')},
@@ -171,15 +155,18 @@ def generate_launch_description():
     #     parameters=[{'reference_frame_id': 'map'}]
     # )
 
-    ekf_node = Node(
-        package='robot_localization',
-        executable='ekf_node',
-        name='ekf_filter_node',
-        output='screen',
-        parameters=[
-            os.path.join(pkg_kinclong_nav, 'config', 'ekf.yaml'),
-            {'use_sim_time': LaunchConfiguration('use_sim_time')},
-             ]
+    ekf_node = TimerAction(
+        period=2.5,  # wait 2.5 seconds for /clock to be active
+        actions=[Node(
+            package='robot_localization',
+            executable='ekf_node',
+            name='ekf_filter_node',
+            output='screen',
+            parameters=[
+                os.path.join(pkg_kinclong_nav, 'config', 'ekf.yaml'),
+                {'use_sim_time': LaunchConfiguration('use_sim_time')}
+            ]
+        )]
     )
 
     interactive_marker_twist_server_node = Node(
@@ -196,9 +183,6 @@ def generate_launch_description():
     #launchDescriptionObject.add_action(rviz_config_arg)
     launchDescriptionObject.add_action(world_arg)
     launchDescriptionObject.add_action(model_arg)
-    launchDescriptionObject.add_action(x_arg)
-    launchDescriptionObject.add_action(y_arg)
-    launchDescriptionObject.add_action(yaw_arg)
     launchDescriptionObject.add_action(sim_time_arg)
     launchDescriptionObject.add_action(world_launch)
     #launchDescriptionObject.add_action(rviz_node)
